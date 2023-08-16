@@ -12,7 +12,7 @@ export default function App() {
   ]);
 
   function addSkill(skill) {
-    setSkills([skill, ...skills]);
+    setSkills([...skills, skill]);
   }
 
   return (
